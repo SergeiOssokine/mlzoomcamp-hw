@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/course_lead_scoring.csv
