@@ -1,0 +1,20 @@
+[project]
+name = "hw5"
+version = "0.1.0"
+description = "MLZoomcamp HW5"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.119.1",
+    "ipython>=9.6.0",
+    "pre-commit>=4.3.0",
+    "rich>=14.2.0",
+    "scikit-learn==1.6.1",
+    "typer>=0.20.0",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.32.5",
+]
